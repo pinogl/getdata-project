@@ -20,13 +20,20 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment
 
-## Tidy Dataset
+## Tidy Dataset 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions). The set of variables kept for the tidy dataset are the averages of Mean value and Standard deviation of those signals.
 
-
+All of the numeric features are dimensionless. The range is [-1, 1].
 ## Detailed list of variables
 
-1. activity
-2. subject
+1. activity: a factor with the following levels
+	1. WALKING
+	2. WALKING UPSTAIRS
+	3. WALKING DOWNSTAIRS 
+	4. SITTING
+	5. STANDING
+	6. LAYING
+2. subject: ID of the subject [1, 30]
 3. meanOfTimeBodyAccelerometerMeanX
 4. meanOfTimeBodyAccelerometerMeanY
 5. meanOfTimeBodyAccelerometerMeanZ
