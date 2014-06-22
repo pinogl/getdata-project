@@ -19,7 +19,7 @@ The files relevant to the project are:
 - 'test/subject_test.txt': Test subject IDs.
 
 ##R script
-An R script ****run_analysis.R**** has been developed to implement the following tasks. 
+An R script **run_analysis.R** has been developed to implement the following tasks. 
 
 1. Merge the training and the test sets to create one data set `data.raw`. 
 2. Extract only the measurements on the mean and standard deviation for each measurement, by filtering the list of all features. Only the features statistics mean and standard eviation are kept. 
@@ -34,4 +34,4 @@ An R script ****run_analysis.R**** has been developed to implement the following
 	1. *Open* `run_analysis.R` from the chosen directory
 	2. *Session -> Set Working Directory -> to Source File Location*
 	3. *Code -> Run All*
-4. `HAR-tidy.txt` dataset is written into the data folder. It can be read using `read.table("data/HAR-tidy.txt", header=TRUE)`
+4. `HAR-tidy.txt` dataset is written into the `data` folder. It can be read using `read.table("data/HAR-tidy.txt", header=TRUE)`
